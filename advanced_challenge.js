@@ -4,6 +4,17 @@ var uniqueNumbers = [...new Set(numbers)];
 
 console.log(uniqueNumbers);
 
+
+var result = [];
+
+for (var i = 0; i < numbers.length; i++) {
+    if (!result.includes(numbers[i])) {
+        result.push(numbers[i]);
+    }
+}
+console.log(result);
+
+
 console.log("--------------");
 
 var arr = [1, 2, 3, 4, 5];
