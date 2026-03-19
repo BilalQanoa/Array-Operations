@@ -1,4 +1,4 @@
-var numbers = [5, 10, 15, 20, 25];
+var numbers = [25, 5, 10, 15, 5 , 1 , 20, 25];
 
 var index = -1;
 for (var i = 0; i < numbers.length; i++){

@@ -7,6 +7,20 @@ scores.sort(
 );
 console.log(scores);
 
+for (var i = 0; i <= scores.length-1; i++){
+    for (var j = i + 1 ; j < scores.length; j++){
+        if (scores[i] > scores[j]){
+            var num = scores[i];
+            scores[i] = scores[j];
+            scores[j] = num;
+        }
+    }
+}
+console.log(scores);
+
+
+
+
 // Descending order
 scores.sort(
     function (a, b) {
